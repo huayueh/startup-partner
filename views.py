@@ -1,4 +1,7 @@
+from django.contrib.auth.models import User
+from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render
+from django.http import HttpResponse
 
 def index(request):
     return render(request, 'index.html')
@@ -7,22 +10,48 @@ def signup(request):
     return render(request, 'signup.html')
 
 def partner(request):
-    return render(request, 'base.html')
+    return render(request, 'partner.html')
 
 def business(request):
     return render(request, 'business.html')
-# def addperson(request):
-#     user = User.objects.create_user('john', 'lennon@thebeatles.com', 'johnpassword')
-#     user.save()
-#     person = Person()
-#     person.name = 'harvey'
-#     person.pid = '1234'
-#     person.save()
-#     return viewperson(request)
-#
-# def viewperson(request):
-#     user_list = User.objects.all()
-#     context = {'user_list': user_list}
-#     person_list = Person.objects.all()
-#     context.update({'person_list': person_list})
-#     return render(request, 'polls/person.html', context)
+
+def user_login(request):
+    username = request.POST['username']
+    password = request.POST['password']
+    user = authenticate(username=username, password=password)
+    if user is not None:
+        if user.is_active:
+            login(request, user)
+            return render(request, 'business.html')
+        else:
+            return render(request, 'index.html')
+    else:
+        return render(request, 'index.html')
+
+def user_logout(request):
+    logout(request)
+    return render(request, 'index.html')
+
+def check_user_exist(request):
+    name = request.REQUEST['userName']
+    response_data = 'false'
+    # pass check if not exist
+    if not User.objects.filter(username = name).exists():
+        response_data = 'true'
+    return HttpResponse(response_data)
+
+def add_user(request):
+    name = request.REQUEST['userName']
+    email = request.REQUEST['userEmail']
+    pwd = request.REQUEST['pwd']
+
+    if not User.objects.filter(username = name).exists():
+        user = User.objects.create_user(name, email, pwd)
+        user.save()
+        return viewperson(request)
+    return HttpResponse('fail')
+
+def viewperson(request):
+    user_list = User.objects.all()
+    context = {'user_list': user_list}
+    return render(request, 'person.html', context)

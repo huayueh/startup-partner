@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import patterns, url, include
 from django.contrib import admin
 import dbindexer
 import views
@@ -12,10 +12,14 @@ admin.autodiscover()
 dbindexer.autodiscover()
 
 urlpatterns = patterns('',
-    ('^_ah/warmup$', 'djangoappengine.views.warmup'),
-    ('^$', views.index),
-    ('^admin/', include(admin.site.urls)),
-    ('^signup/', views.signup),
-    ('^partner/', views.partner),
-    ('^business/', views.business),
+    url(r'^_ah/warmup$', 'djangoappengine.views.warmup'),
+    url(r'^$', views.index),
+    url(r'^admin/$', include(admin.site.urls)),
+    url(r'^signup/$', views.signup),
+    url(r'^login/$', views.user_login),
+    url(r'^logout/$', views.user_logout),
+    url(r'^add_user/$', views.add_user),
+    url(r'^check_user_exist/$', views.check_user_exist),
+    url(r'^partner/$', views.partner),
+    url(r'^business/$', views.business),
 )

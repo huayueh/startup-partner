@@ -2,781 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd3f425e-bf4d-479d-b91a-4d3f370546fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/business.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/head.html" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap-social\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap-social\.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap-social\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap-social\README.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap-social\bootstrap-social.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap-social\bootstrap-social.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap-social\bootstrap-social.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap-social\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\README.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\dist\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\dist\css\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\dist\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\dist\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\dist\css\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\dist\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\dist\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\dist\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\dist\js\npm.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\grunt\.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\grunt\bs-commonjs-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\grunt\bs-lessdoc-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\grunt\bs-raw-files-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\grunt\configBridge.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\grunt\sauce_browsers.yml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\js\.jscsrc" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\js\.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\js\affix.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\js\alert.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\js\button.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\js\carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\js\collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\js\dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\js\modal.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\js\popover.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\js\scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\js\tab.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\js\tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\js\transition.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\.csscomb.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\.csslintrc" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\badges.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\close.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\code.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\forms.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\grid.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\jumbotron.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\labels.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\media.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\background-variant.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\border-radius.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\center-block.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\clearfix.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\forms.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\gradients.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\grid-framework.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\grid.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\hide-text.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\image.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\labels.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\nav-divider.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\nav-vertical-align.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\opacity.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\panels.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\progress-bar.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\reset-filter.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\resize.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\responsive-visibility.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\size.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\tab-focus.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\table-row.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\text-emphasis.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\text-overflow.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\mixins\vendor-prefixes.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\modals.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\navs.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\normalize.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\pager.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\panels.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\print.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\responsive-embed.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\responsive-utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\tables.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\theme.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\type.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\variables.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\less\wells.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\bootstrap\package.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\README.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\average().js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\column().title().js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\columns().order().js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnAddDataAndDisplay.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnAddTr.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnColumnIndexToVisible.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnDataUpdate.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnDisplayRow.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnDisplayStart.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnFakeRowspan.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnFilterAll.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnFilterClear.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnFilterOnReturn.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnFindCellRowIndexes.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnFindCellRowNodes.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnGetAdjacentTr.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnGetColumnData.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnGetColumnIndex.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnGetHiddenNodes.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnGetTd.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnGetTds.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnLengthChange.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnMultiFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnPagingInfo.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnProcessingIndicator.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnReloadAjax.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnSetFilteringDelay.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnSortNeutral.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnStandingRedraw.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\fnVisibleToColumnIndex.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\page.jumpToData().js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\api\sum().js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\features\alphabetSearch\dataTables.alphabetSearch.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\features\alphabetSearch\dataTables.alphabetSearch.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\features\alphabetSearch\dataTables.alphabetSearch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\features\lengthLinks\dataTables.lengthLinks.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\features\lengthLinks\dataTables.lengthLinks.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\features\lengthLinks\dataTables.lengthLinks.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\features\searchHighlight\dataTables.searchHighlight.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\features\searchHighlight\dataTables.searchHighlight.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\features\searchHighlight\dataTables.searchHighlight.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\filtering\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\filtering\row-based\TableTools.ShowSelectedOnly.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\filtering\row-based\range_dates.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\filtering\row-based\range_numbers.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\filtering\type-based\accent-neutralise.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\filtering\type-based\html.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\filtering\type-based\phoneNumber.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Afrikaans.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Albanian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Arabic.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Azerbaijan.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Bangla.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Belarusian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Bulgarian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Catalan.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Chinese-traditional.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Chinese.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Croatian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Czech.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Danish.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Dutch.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\English.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Estonian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Filipino.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Finnish.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\French.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Galician.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Georgian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\German.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Greek.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Gujarati.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Hebrew.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Hindi.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Hungarian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Icelandic.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Indonesian-Alternative.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Indonesian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Irish.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Italian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Japanese.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Korean.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Latvian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Lithuanian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Macedonian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Malay.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Norwegian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Persian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Polish.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Portuguese-Brasil.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Portuguese.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Romanian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Russian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Serbian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Slovak.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Slovenian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Spanish.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Swahili.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Swedish.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Tamil.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Thai.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Turkish.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Ukranian.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Urdu.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Uzbek.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\Vietnamese.lang" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\i18n\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\bootstrap\1\dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\bootstrap\1\dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\bootstrap\2\dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\bootstrap\2\dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\bootstrap\2\dataTables.bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\bootstrap\2\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\bootstrap\3\dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\bootstrap\3\dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\bootstrap\3\dataTables.bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\bootstrap\3\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\bootstrap\images\sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\bootstrap\images\sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\bootstrap\images\sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\bootstrap\images\sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\bootstrap\images\sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\font-awesome\bootstrap.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\font-awesome\dataTables.fontAwesome.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\font-awesome\datatables.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\font-awesome\foundation.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\foundation\dataTables.foundation.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\foundation\dataTables.foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\foundation\dataTables.foundation.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\foundation\images\sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\foundation\images\sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\foundation\images\sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\foundation\images\sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\foundation\images\sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\foundation\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\jqueryui\dataTables.jqueryui.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\jqueryui\dataTables.jqueryui.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\jqueryui\dataTables.jqueryui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\jqueryui\dataTables.jqueryui.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\integration\jqueryui\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\make.sh" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\pagination\ellipses.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\pagination\extjs.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\pagination\four_button.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\pagination\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\pagination\input.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\pagination\jPaginator\dataTables.jPaginator.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\pagination\scrolling.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\pagination\select.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\alt-string.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\anti-the.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\chinese-string.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\currency.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\custom-data-source\dom-checkbox.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\custom-data-source\dom-select.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\custom-data-source\dom-text.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\date-dd-MMM-yyyy.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\date-de.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\date-eu.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\date-euro.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\date-uk.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\datetime-moment.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\datetime-us.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\enum.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\file-size.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\formatted-numbers.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\ip-address.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\monthYear.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\natural.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\num-html.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\numeric-comma.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\percent.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\persian.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\scientific.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\signed-num.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\stringMonthYear.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\time.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\title-numeric.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\title-string.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\sorting\turkish-string.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\type-detection\currency.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\type-detection\date-uk.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\type-detection\file-size.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\type-detection\formatted-num.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\type-detection\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\type-detection\ip-address.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\type-detection\num-html.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-plugins\type-detection\numeric-comma.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\css\dataTables.responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\css\dataTables.responsive.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\docs\api\responsive.index().xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\docs\api\responsive.recalc().xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\docs\option\responsive.breakpoints.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\docs\option\responsive.details.renderer.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\docs\option\responsive.details.target.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\docs\option\responsive.details.type.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\docs\option\responsive.details.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\docs\option\responsive.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\child-rows\column-control.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\child-rows\custom-renderer.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\child-rows\disable-child-rows.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\child-rows\index.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\child-rows\right-column.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\child-rows\whole-row-control.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\display-control\auto.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\display-control\classes.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\display-control\index.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\display-control\init-classes.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\index.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\initialisation\ajax.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\initialisation\className.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\initialisation\default.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\initialisation\index.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\initialisation\new.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\initialisation\option.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\styling\bootstrap.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\styling\foundation.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\examples\styling\index.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\js\dataTables.responsive.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables-responsive\make.sh" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\Contributing.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\css\jquery.dataTables.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\css\jquery.dataTables.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\css\jquery.dataTables_themeroller.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\images\Sorting icons.psd" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\images\back_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\images\back_enabled.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\images\back_enabled_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\images\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\images\forward_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\images\forward_enabled.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\images\forward_enabled_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\images\sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\images\sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\images\sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\images\sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\images\sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\js\jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\js\jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\datatables\media\js\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot.tooltip\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot.tooltip\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot.tooltip\js\excanvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot.tooltip\js\jquery.flot.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot.tooltip\js\jquery.flot.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot.tooltip\js\jquery.flot.tooltip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot.tooltip\js\jquery.flot.tooltip.source.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\API.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\FAQ.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\NEWS.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\PLUGINS.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\README.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\component.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\ajax\data-eu-gdp-growth-1.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\ajax\data-eu-gdp-growth-2.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\ajax\data-eu-gdp-growth-3.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\ajax\data-eu-gdp-growth-4.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\ajax\data-eu-gdp-growth-5.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\ajax\data-eu-gdp-growth.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\ajax\data-japan-gdp-growth.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\ajax\data-usa-gdp-growth.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\ajax\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\annotating\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-interacting\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-multiple\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\date.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\africa" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\antarctica" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\asia" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\australasia" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\backward" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\etcetera" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\europe" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\factory" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\iso3166.tab" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\leapseconds" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\northamerica" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\pacificnew" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\solar87" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\solar88" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\solar89" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\southamerica" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\systemv" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\yearistype.sh" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time-zones\tz\zone.tab" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\axes-time\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\background.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\basic-options\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\basic-usage\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\canvas\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\categories\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\examples.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\image\hs-2004-27-a-large-web.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\image\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\interacting\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\navigate\arrow-down.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\navigate\arrow-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\navigate\arrow-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\navigate\arrow-up.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\navigate\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\percentiles\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\realtime\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\resize\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\selection\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\series-errorbars\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\series-pie\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\series-toggle\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\series-types\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\shared\jquery-ui\jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\stacking\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\symbols\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\threshold\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\tracking\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\visitors\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\examples\zooming\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\excanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\excanvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\flot.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.colorhelpers.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.flot.canvas.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.flot.categories.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.flot.crosshair.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.flot.errorbars.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.flot.fillbetween.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.flot.image.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.flot.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.flot.navigate.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.flot.pie.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.flot.resize.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.flot.selection.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.flot.stack.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.flot.symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.flot.threshold.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.flot.time.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\flot\package.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\css\font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\css\font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\fonts\FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\fonts\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\fonts\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\fonts\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\fonts\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\less\bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\less\core.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\less\extras.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\less\fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\less\font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\less\icons.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\less\larger.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\less\list.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\less\mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\less\path.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\less\rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\less\spinning.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\less\stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\less\variables.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\scss\_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\scss\_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\scss\_extras.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\scss\_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\scss\_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\scss\_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\scss\_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\scss\_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\scss\_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\scss\_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\scss\_spinning.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\scss\_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\scss\_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\font-awesome\scss\font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\css\font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\css\font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\fonts\FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\fonts\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\fonts\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\fonts\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\fonts\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\less\bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\less\core.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\less\extras.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\less\fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\less\font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\less\icons.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\less\larger.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\less\list.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\less\mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\less\path.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\less\rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\less\spinning.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\less\stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\less\variables.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\scss\_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\scss\_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\scss\_extras.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\scss\_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\scss\_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\scss\_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\scss\_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\scss\_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\scss\_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\scss\_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\scss\_spinning.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\scss\_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\scss\_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\fontawesome\scss\font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\README.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\composer.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\holder.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\package.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\src\augment.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\src\holder.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\src\ondomready.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\src\polyfills.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\test\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\test\image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\holderjs\test\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\dist\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\dist\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\dist\jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\ajax\jsonp.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\ajax\load.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\ajax\parseJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\ajax\parseXML.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\ajax\script.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\ajax\var\nonce.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\ajax\var\rquery.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\ajax\xhr.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\attributes\attr.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\attributes\classes.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\attributes\prop.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\attributes\support.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\attributes\val.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\core.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\core\access.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\core\init.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\core\parseHTML.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\core\ready.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\core\var\rsingleTag.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\css.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\css\addGetHookIf.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\css\curCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\css\defaultDisplay.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\css\hiddenVisibleSelectors.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\css\support.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\css\swap.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\css\var\cssExpand.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\css\var\getStyles.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\css\var\isHidden.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\css\var\rmargin.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\css\var\rnumnonpx.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\data.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\data\Data.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\data\accepts.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\data\var\data_priv.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\data\var\data_user.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\deprecated.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\dimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\effects.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\effects\Tween.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\effects\animatedSelector.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\event.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\event\ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\event\alias.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\event\support.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\exports\amd.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\exports\global.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\intro.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\manipulation.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\manipulation\_evalUrl.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\manipulation\support.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\manipulation\var\rcheckableType.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\offset.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\outro.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\queue.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\queue\delay.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\selector-native.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\selector-sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\selector.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\serialize.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\sizzle\dist\sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\sizzle\dist\sizzle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\sizzle\dist\sizzle.min.map" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\traversing.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\traversing\findFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\traversing\var\rneedsContext.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\var\arr.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\var\class2type.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\var\concat.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\var\hasOwn.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\var\indexOf.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\var\pnum.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\var\push.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\var\rnotwhite.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\var\slice.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\var\strundefined.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\var\support.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\var\toString.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\jquery\src\wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\metisMenu\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\metisMenu\Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\metisMenu\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\metisMenu\README.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\metisMenu\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\metisMenu\dist\metisMenu.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\metisMenu\dist\metisMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\metisMenu\dist\metisMenu.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\metisMenu\dist\metisMenu.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\metisMenu\package.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\metisMenu\src\metisMenu.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\metisMenu\src\metisMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\mocha\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\mocha\History.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\mocha\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\mocha\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\mocha\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\mocha\media\logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\mocha\mocha.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\mocha\mocha.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\README.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\bower.travis.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\_template.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\area-as-line.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\area.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\bar-colors.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\bar-no-axes.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\bar.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\days.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\decimal-custom-hover.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\diagonal-xlabels-bar.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\diagonal-xlabels.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\donut-colors.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\donut-formatter.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\donut.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\dst.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\events.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\goals.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\lib\example.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\lib\example.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\months-no-smooth.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\negative.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\no-grid.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\non-continuous.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\non-date.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\quarters.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\resize.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\stacked_bars.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\timestamps.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\updating.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\weeks.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\examples\years.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\less\morris.core.less" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\lib\morris.area.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\lib\morris.bar.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\lib\morris.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\lib\morris.donut.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\lib\morris.grid.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\lib\morris.hover.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\lib\morris.line.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\morris.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\morris.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\morris.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\package.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\lib\area\area_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\lib\bar\bar_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\lib\bar\colours.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\lib\commas_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\lib\donut\donut_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\lib\grid\auto_grid_lines_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\lib\grid\set_data_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\lib\grid\y_label_format_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\lib\hover_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\lib\label_series_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\lib\line\line_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\lib\pad_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\lib\parse_time_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\specs.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\support\placeholder.coffee" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\viz\examples.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\viz\exemplary\area0.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\viz\exemplary\bar0.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\viz\exemplary\line0.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\viz\exemplary\stacked_bar0.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\viz\run.sh" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\viz\test.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\morrisjs\spec\viz\visual_specs.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\raphael\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\raphael\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\raphael\dev\amdDev.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\raphael\dev\require.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\raphael\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\raphael\raphael-min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\bower_components\raphael\raphael.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\dist\css\sb-admin-2.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\dist\css\timeline.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\dist\js\sb-admin-2.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\js\flot-data.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\startup-partner\static\js\morris-data.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/partner.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/person.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gaedata/datastore" afterPath="$PROJECT_DIR$/.gaedata/datastore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/business.html" afterPath="$PROJECT_DIR$/templates/business.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/head.html" afterPath="$PROJECT_DIR$/templates/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/signup.html" afterPath="$PROJECT_DIR$/templates/signup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urls.py" afterPath="$PROJECT_DIR$/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views.py" afterPath="$PROJECT_DIR$/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="startup-partner.iws" />
@@ -792,7 +28,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/startup-partner$manage_runserver.coverage" NAME="manage runserver Coverage Results" MODIFIED="1420433768292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/startup-partner$manage_runserver.coverage" NAME="manage runserver Coverage Results" MODIFIED="1420691078226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/startup-partner$manage.coverage" NAME="manage runserver Coverage Results" MODIFIED="1420266475139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -810,43 +46,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.558824" vertical-offset="1121" max-vertical-offset="2100">
-              <caret line="66" column="57" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="7075">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="1750">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sticky-footer.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/sticky-footer.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1475">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state vertical-scroll-proportion="-12.5" vertical-offset="450" max-vertical-offset="2100">
+              <caret line="35" column="122" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="122" />
               <folding />
             </state>
           </provider>
@@ -855,21 +69,11 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="775">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -877,9 +81,23 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1550">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/contrib/auth/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="3700">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -887,21 +105,19 @@
       <file leaf-file-name="business.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/business.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="7075">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3400">
+              <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/signup.html">
+      <file leaf-file-name="partner.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/partner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="16.217821" vertical-offset="2088" max-vertical-offset="2850">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-              <folding>
-                <marker date="1420446119705" expanded="true" signature="31:4105" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="225">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -909,8 +125,25 @@
       <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.205882" vertical-offset="108" max-vertical-offset="1000">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state vertical-scroll-proportion="-1.9705882" vertical-offset="333" max-vertical-offset="1175">
+              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.css">
+          <provider selected="true" editor-type-id="httpFileEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/dashboard.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7064579" vertical-offset="2264" max-vertical-offset="2775">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -928,14 +161,20 @@
         <option value="$PROJECT_DIR$/templates/temp.html" />
         <option value="$PROJECT_DIR$/signup/urls.py" />
         <option value="$PROJECT_DIR$/signup/templates/signup/login.html" />
-        <option value="$PROJECT_DIR$/templates/head.html" />
         <option value="$PROJECT_DIR$/static/sticky-footer-navbar.css" />
         <option value="$PROJECT_DIR$/signup/views.py" />
         <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/templates/person.html" />
+        <option value="$PROJECT_DIR$/templates/head.html" />
+        <option value="$PROJECT_DIR$/templates/signup.html" />
+        <option value="$PROJECT_DIR$/urls.py" />
+        <option value="$PROJECT_DIR$/views.py" />
+        <option value="$PROJECT_DIR$/templates/business.html" />
+        <option value="$PROJECT_DIR$/templates/partner.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/views.py" />
-        <option value="$PROJECT_DIR$/urls.py" />
+        <option value="$PROJECT_DIR$/static/dashboard.css" />
       </list>
     </option>
   </component>
@@ -978,10 +217,6 @@
               <option name="myItemId" value="startup-partner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1023,8 +258,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1059,6 +294,10 @@
       <recent name="E:\workspace\startup-partner" />
       <recent name="E:\workspace\startup-partner\templates" />
       <recent name="E:\workspace\startup-partner\signup\templates\signup" />
+    </key>
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.css" />
+      <recent name="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
     </key>
   </component>
   <component name="RunManager" selected="Python.manage runserver">
@@ -1350,33 +589,53 @@
   <component name="SvnConfiguration">
     <configuration />
   </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.79757977" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40154016" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.459846" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49394938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17433155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6050605" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5808581" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4829483" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6050605" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1397,17 +656,139 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/django/db/models/manager.py</url>
+          <line>211</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="13" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/business.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1525" max-vertical-offset="3400">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="225">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2475">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="1175">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1650" max-vertical-offset="2100">
+          <caret line="66" column="57" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1350">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1475">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="675">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="175">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="825">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/business.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="3400">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="225">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2088" max-vertical-offset="2850">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="8225" max-vertical-offset="8375">
           <caret line="329" column="14" selection-start-line="329" selection-start-column="14" selection-end-line="329" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,7 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="375">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1431,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="875">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1448,7 +827,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="353" max-vertical-offset="700">
           <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1457,9 +836,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3250" max-vertical-offset="3400">
           <caret line="130" column="43" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1475,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="375">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1483,7 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="875">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1500,7 +875,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="700">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1509,7 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1517,7 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="875">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1533,15 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33291456" vertical-offset="14060" max-vertical-offset="38625">
           <caret line="573" column="7" selection-start-line="573" selection-start-column="0" selection-end-line="573" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.205882" vertical-offset="108" max-vertical-offset="1000">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1549,17 +913,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/signup.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="16.217821" vertical-offset="2088" max-vertical-offset="2850">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <marker date="1420446119705" expanded="true" signature="31:4105" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1571,54 +931,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/django/db/models/manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7075">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="5059" max-vertical-offset="6600">
+          <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/business.html">
+    <entry file="file://$PROJECT_DIR$/django/db/models/query.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7075">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1034" max-vertical-offset="47525">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/http/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7183" max-vertical-offset="11200">
+          <caret line="247" column="6" selection-start-line="247" selection-start-column="6" selection-end-line="247" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2583" max-vertical-offset="13150">
+          <caret line="136" column="31" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/person.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="400">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2309" max-vertical-offset="6650">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/signup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.558824" vertical-offset="1121" max-vertical-offset="2100">
-          <caret line="66" column="57" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2950" max-vertical-offset="3175">
+          <caret line="118" column="38" selection-start-line="118" selection-start-column="38" selection-end-line="118" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="3700">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1550">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="225">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/business.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3400">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="775">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.css">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="1750">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9705882" vertical-offset="333" max-vertical-offset="1175">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5" vertical-offset="450" max-vertical-offset="2100">
+          <caret line="35" column="122" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7064579" vertical-offset="2264" max-vertical-offset="2775">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
         </state>
       </provider>
