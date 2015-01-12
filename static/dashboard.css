@@ -103,3 +103,14 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
+.jumbotron {
+  color: #ffcc85;
+  background-position: 0% 35%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(http://www.stormmediagroup.com/export/sites/stormmedia/DomesticPicUnpublish/201412/sh2014121592014.jpg);
+}
+
+.jumbotron h1{
+  color: #ffe250;
+}

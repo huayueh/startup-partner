@@ -1,6 +1,24 @@
 {% extends "base.html" %}
 {% block content %}
     <h1 class="page-header">事業</h1>
+    <div class="row">
+        <div class="col-sm-9 col-lg-8 ">
+            <form accept-charset="UTF-8" action="/jobs/search" class="jobs-search-form" method="get">
+                <div style="display:none"><input name="utf8" type="hidden" value="✓"></div>
+                <div class="input-group">
+                    <input type="text" class="form-control" name="q" value="" placeholder="搜尋事業關鍵字...">
+        <span class="input-group-btn">
+          <button type="submit" class="btn btn-default">
+              <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-3 col-lg-2">
+            <a class="btn btn-primary btn-block" data-remote="true" href="/add_business/">發表一個偉大的計畫</a>
+        </div>
+    </div>
     <div class="table-responsive">
         <table class="table table-striped">
             <thead>

@@ -15,6 +15,16 @@ def partner(request):
 def business(request):
     return render(request, 'business.html')
 
+def add_business(request):
+    return render(request, 'add_business.html')
+
+def tinymce(request):
+    return render(request, 'tinymce.html')
+
+def test_tinymce(request):
+    context = {'plain': request.POST.get('content', '')}
+    return render(request, 'tinymce.html', context)
+
 def user_login(request):
     username = request.POST['username']
     password = request.POST['password']

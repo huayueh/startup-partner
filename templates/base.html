@@ -1,5 +1,9 @@
 <html lang="en">
-{% include "head.html" %}
+<header>
+    {% include "head.html" %}
+    {% block ext_js %}
+    {% endblock %}
+</header>
 <body>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -16,49 +20,51 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             {% if user.is_authenticated %}
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i>更改資料</a></li>
-                        <li class="divider"></li>
-                        <li><a href="/logout/"><i class="fa fa-sign-out fa-fw"></i>登出</a></li>
-                    </ul>
-                    <!-- /.dropdown-user -->
-                </li>
-            </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="#"><i class="fa fa-user fa-fw"></i>更改資料</a></li>
+                            <li class="divider"></li>
+                            <li><a href="/logout/"><i class="fa fa-sign-out fa-fw"></i>登出</a></li>
+                        </ul>
+                        <!-- /.dropdown-user -->
+                    </li>
+                </ul>
             {% endif %}
-            <form class="navbar-form navbar-right">
-                <input type="text" class="form-control" placeholder="搜尋...">
-            </form>
+            {#            <form class="navbar-form navbar-right">#}
+            {#                <input type="text" class="form-control" placeholder="搜尋...">#}
+            {#            </form>#}
         </div>
     </div>
 </nav>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
-            <ul class="nav nav-sidebar" id="menu">
-                <li class="active"><a href="#">全部 <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">視覺設計</a></li>
-                <li><a href="#">程式設計</a></li>
-                <li><a href="#">網路行銷</a></li>
-                <li><a href="#">市場開發/業務</a></li>
-                <li><a href="#">行銷/企劃</a></li>
-                <li><a href="#">醫療</a></li>
-                <li><a href="#">電子業</a></li>
-                <li><a href="#">餐飲</a></li>
-                <li><a href="#">銀行/金融</a></li>
-                <li><a href="#">其他</a></li>
-            </ul>
-        </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            {% block content %}
-            {% endblock %}
+{% block wrapper %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar" id="menu">
+                    <li class="active"><a href="#">全部 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">視覺設計</a></li>
+                    <li><a href="#">程式設計</a></li>
+                    <li><a href="#">網路行銷</a></li>
+                    <li><a href="#">市場開發/業務</a></li>
+                    <li><a href="#">行銷/企劃</a></li>
+                    <li><a href="#">醫療</a></li>
+                    <li><a href="#">電子業</a></li>
+                    <li><a href="#">餐飲</a></li>
+                    <li><a href="#">銀行/金融</a></li>
+                    <li><a href="#">其他</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                {% block content %}
+                {% endblock %}
+            </div>
         </div>
     </div>
-</div>
+{% endblock %}
 </body>
 </html>

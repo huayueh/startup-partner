@@ -22,4 +22,7 @@ urlpatterns = patterns('',
     url(r'^check_user_exist/$', views.check_user_exist),
     url(r'^partner/$', views.partner),
     url(r'^business/$', views.business),
+    url(r'^add_business/$', views.add_business),
+    url(r'^tinymce/$', views.tinymce),
+    url(r'^test_tinymce/$', views.test_tinymce),
 )
