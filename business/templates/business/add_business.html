@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block ext_js %}
+<script src="//tinymce.cachefly.net/4.1/tinymce.min.js"></script>
+<script type="text/javascript">
+    tinymce.init({
+        editor_selector : "mceEditor",
+        mode : "specific_textareas",
+        theme: "modern",
+        plugins: [
+            "advlist autolink lists link image charmap preview hr anchor pagebreak",
+            "searchreplace wordcount visualblocks visualchars code fullscreen",
+            "insertdatetime media nonbreaking save table contextmenu directionality",
+            "emoticons template paste textcolor colorpicker textpattern"
+        ],
+        toolbar1: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | preview media | forecolor backcolor emoticons",
+        image_advtab: true,
+        templates: [
+            {title: 'Test template 1', content: 'Test 1'},
+            {title: 'Test template 2', content: 'Test 2'}
+        ]
+    });
+</script>
+{% endblock %}
+{% block wrapper %}
+    <div class="container">
+        <h3> 撰寫計劃內容 </h3>
+        <hr>
+        <br><br>
+
+        <form accept-charset="UTF-8" action="/business/insert_business/" class="simple_form form-horizontal" method="post" novalidate="novalidate">
+            {% csrf_token %}
+            <h4 class="instruction"> &nbsp; &nbsp;&nbsp;詳細資訊 </h4>
+
+            <div class="form-group string required">
+                <label class="string required col-sm-2 control-label" for="title">
+                    <abbr title="required">*</abbr> 名稱
+                </label>
+                <div class="col-sm-10">
+                    <input class="string required form-control" id="title" name="title" type="text">
+                </div>
+            </div>
+            <div class="form-group radio_buttons optional">
+
+                <label class="radio_buttons optional col-sm-2 control-label">產業</label>
+                <div class="col-sm-10">
+                    <select class="string required form-control" name="industry">
+                        <option value="it">資訊科技</option>
+                        <option value="conventional">傳產製造</option>
+                        <option value="industry">工商服務</option>
+                        <option value="catering">餐飲服務</option>
+                        <option value="livelihood">民生服務</option>
+                        <option value="education">文教傳播</option>
+                        <option value="electronic">電子/半導體</option>
+                        <option value="other">其他</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group string required">
+                <label class="string required col-sm-2 control-label" for="location">
+                <abbr title="required">*</abbr>地點
+                </label>
+                <div class="col-sm-10"><input class="string required form-control" id="location" name="location" type="text">
+                    <p class="help-block">臺北 / 高雄 / 上海 / ...etc.</p>
+                </div>
+            </div>
+            <div class="form-group text required description">
+                <label class="text required col-sm-2 control-label" for="description">
+                    <abbr title="required">*</abbr> 計劃描述
+                </label>
+                <div class="col-sm-10">
+                    <textarea id="description" name="content" class="mceEditor" style="width:100%"></textarea>
+                </div>
+            </div>
+
+            <h4 class="instruction"> &nbsp; &nbsp;&nbsp;如何跟你聯絡 </h4>
+            <br><br>
+
+            <div class="form-group text required contact_info">
+                <label class="text required col-sm-2 control-label" for="contact_info">
+                    <abbr title="required">*</abbr> 聯絡資訊
+                </label>
+
+                <div class="col-sm-10">
+                    <textarea class="text required form-control" id="contact_info" name="contact_info" rows="3"></textarea>
+                    <p class="help-block">Email / 手機 / Skype / Line ...etc.</p>
+                    <p class="help-block">只有你授權的用戶才看得到你的聯絡資訊</p>
+                </div>
+            </div>
+            <hr>
+            <div class="form-group text optional">
+                <label class="text optional col-sm-1 control-label"></label>{#space label#}
+                <div class="col-sm-11">
+                    <input class="btn btn-lg btn-danger" name="commit" type="submit" value="發佈計劃">
+                </div>
+            </div>
+        </form>
+    </div>
+{% endblock %}

@@ -1,4 +1,17 @@
 {% extends "base.html" %}
+{% block side_menu %}
+    <ul class="nav nav-sidebar" id="menu">
+        <li class="active"><a href="#">全部 <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">資訊科技</a></li>
+        <li><a href="#">傳產製造</a></li>
+        <li><a href="#">工商服務</a></li>
+        <li><a href="#">餐飲服務</a></li>
+        <li><a href="#">民生服務</a></li>
+        <li><a href="#">文教傳播</a></li>
+        <li><a href="#">電子/半導體</a></li>
+        <li><a href="#">其他</a></li>
+    </ul>
+{% endblock %}
 {% block content %}
     <h1 class="page-header">事業</h1>
     <div class="row">
@@ -16,7 +29,7 @@
             </form>
         </div>
         <div class="col-sm-3 col-lg-2">
-            <a class="btn btn-primary btn-block" data-remote="true" href="/add_business/">發表一個偉大的計畫</a>
+            <a class="btn btn-primary btn-block" data-remote="true" href="/business/add_business/">發表一個偉大的計畫</a>
         </div>
     </div>
     <div class="table-responsive">

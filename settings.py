@@ -20,7 +20,8 @@ INSTALLED_APPS = (
     'djangotoolbox',
     'autoload',
     'dbindexer',
-    # 'polls',
+    'business',
+    'partner',
     # djangoappengine should come last, so it can override a few manage.py commands
     'djangoappengine',
 )

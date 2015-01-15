@@ -33,7 +33,13 @@ indexes:
   - name: __key__
     direction: desc
 
-- kind: polls_person
+- kind: business_business
   properties:
   - name: __key__
     direction: desc
+
+- kind: django_content_type
+  properties:
+  - name: app_label
+  - name: model
+  - name: name

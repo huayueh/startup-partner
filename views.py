@@ -2,21 +2,14 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render
 from django.http import HttpResponse
+from business.models import Business
+
 
 def index(request):
     return render(request, 'index.html')
 
 def signup(request):
     return render(request, 'signup.html')
-
-def partner(request):
-    return render(request, 'partner.html')
-
-def business(request):
-    return render(request, 'business.html')
-
-def add_business(request):
-    return render(request, 'add_business.html')
 
 def tinymce(request):
     return render(request, 'tinymce.html')
@@ -32,7 +25,7 @@ def user_login(request):
     if user is not None:
         if user.is_active:
             login(request, user)
-            return render(request, 'business.html')
+            return render(request, 'business/template/business/business.html')
         else:
             return render(request, 'index.html')
     else:

@@ -45,19 +45,8 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-3 col-md-2 sidebar">
-                <ul class="nav nav-sidebar" id="menu">
-                    <li class="active"><a href="#">全部 <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">視覺設計</a></li>
-                    <li><a href="#">程式設計</a></li>
-                    <li><a href="#">網路行銷</a></li>
-                    <li><a href="#">市場開發/業務</a></li>
-                    <li><a href="#">行銷/企劃</a></li>
-                    <li><a href="#">醫療</a></li>
-                    <li><a href="#">電子業</a></li>
-                    <li><a href="#">餐飲</a></li>
-                    <li><a href="#">銀行/金融</a></li>
-                    <li><a href="#">其他</a></li>
-                </ul>
+                {% block side_menu %}
+                {% endblock %}
             </div>
             <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
                 {% block content %}
