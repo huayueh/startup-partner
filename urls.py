@@ -20,7 +20,7 @@ urlpatterns = patterns('',
     url(r'^logout/$', views.user_logout),
     url(r'^add_user/$', views.add_user),
     url(r'^check_user_exist/$', views.check_user_exist),
-    url(r'^partner/$', include('partner.urls')),
+    url(r'^partner/', include('partner.urls')),
     url(r'^business/', include('business.urls')),
     url(r'^tinymce/$', views.tinymce),
 )

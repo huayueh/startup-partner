@@ -2,7 +2,6 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render
 from django.http import HttpResponse
-from business.models import Business
 
 
 def index(request):
@@ -25,7 +24,7 @@ def user_login(request):
     if user is not None:
         if user.is_active:
             login(request, user)
-            return render(request, 'business/template/business/business.html')
+            return render(request, 'business/business.html')
         else:
             return render(request, 'index.html')
     else:
