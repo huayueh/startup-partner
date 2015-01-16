@@ -4,10 +4,18 @@ from business.models import Business
 
 
 def business(request):
-    return render(request, 'business/business.html')
+    biz_list = Business.objects.all()
+    context = {"biz_list" : biz_list}
+    return render(request, 'business/business.html', context)
 
 def add_business(request):
     return render(request, 'business/add_business.html')
+
+def business_detail(request):
+    id = request.GET['id']
+    biz = Business.objects.get(pk=id)
+    context = {'biz': biz}
+    return render(request, 'business/business_detail.html', context)
 
 def insert_business(request):
     title = request.POST['title']

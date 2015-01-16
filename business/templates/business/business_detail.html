@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block wrapper %}
+    <div class="container">
+        <div class="page-header">
+            <a class="underline" style="font-size: 30px" href="/business/">
+                <span class="glyphicon glyphicon-hand-left">返回列表</span>
+            </a>
+        </div>
+        <h2> {{ biz.title }}</h2>
+        <div class="group">
+            <span style="color:grey; font-weight:bold;"> <i class="glyphicon glyphicon-calendar"> </i> 刊登日期 {{ biz.pub_date }} </span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <span style="color:grey; font-weight:bold;"> <i class="glyphicon glyphicon-map-marker"></i> 地點 {{ biz.location }} </span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <hr>
+        <div>
+            {{ biz.content | safe}}
+        </div>
+        <br>
+        <div class="well">
+            <h4> 聯絡資訊 </h4>
+            {{ biz.contact_info }}
+        </div>
+    </div>
+{% endblock %}
