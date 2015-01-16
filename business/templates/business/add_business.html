@@ -81,8 +81,9 @@
                 </label>
 
                 <div class="col-sm-10">
-                    <textarea class="text required form-control" id="contact_info" name="contact_info" rows="3"></textarea>
-                    <p class="help-block">Email / 手機 / Skype / Line ...etc.</p>
+                    <div class="well">
+                        {{ profile.contact_info }}
+                    </div>
                     <p class="help-block">只有你授權的用戶才看得到你的聯絡資訊</p>
                 </div>
             </div>

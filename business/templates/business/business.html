@@ -46,14 +46,14 @@
             <tbody>
             {% for biz in biz_list%}
             <tr>
-                <td width="75%">
+                <td width="65%">
                     {% if biz.was_published_recently %}
                         <span class="label label-success">NEW</span>
                     {% endif %}
                     <a href="/business/biz_detail?id={{ biz.pk }}">{{ biz.title }}</a>
                 </td>
-                <td width="5%">{{ biz.industry }}</td>
-                <td width="5%">{{ biz.location }}</td>
+                <td width="10%">{{ biz.industry }}</td>
+                <td width="10%">{{ biz.location }}</td>
                 <td width="15%">{{ biz.pub_date }}</td>
             </tr>
             {% endfor %}

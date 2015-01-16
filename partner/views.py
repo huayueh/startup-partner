@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.utils import timezone
 from partner.models import UserProfile
 
 
@@ -11,6 +12,11 @@ def view_profile(request):
     p, created = UserProfile.objects.get_or_create(username=request.user.username)
     context = {'profile': p}
     return render(request, 'partner/partner_profile.html', context)
+
+def user_detail(request):
+    p = UserProfile.objects.get(username=request.user.username)
+    context = {'profile': p}
+    return render(request, 'partner/partner_detail.html', context)
 
 def edit_profile(request):
     public = request.POST['public']
@@ -25,8 +31,9 @@ def edit_profile(request):
     p.website = str(website).replace('http://', '')
     p.location = location
     p.skill_type = skill_type
-    p.skill_detail = skill_detail
+    p.skill_detail = ''.join(skill_detail.splitlines())
     p.contact_info = contact_info
+    p.last_modify = timezone.now()
     p.save()
 
     return view_profile(request)

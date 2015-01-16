@@ -145,12 +145,12 @@
                 document.getElementById('website').value = website;
                 document.getElementById('location').value = user_location;
                 document.getElementById('contact_info').value = contact_info;
+                document.getElementById('skill_detail').innerHTML = skill_detail;
                 $('#skill_type option').each(function(){
                     if($(this).text() === skill_type){
                         $(this).attr("selected", "true");
                     }
                 });
-
             });
         {% endif %}
     </script>

@@ -43,3 +43,8 @@ indexes:
   - name: app_label
   - name: model
   - name: name
+
+- kind: partner_userprofile
+  properties:
+  - name: __key__
+    direction: desc

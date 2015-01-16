@@ -1,3 +1,6 @@
+from django.utils import timezone
+from django.utils.datetime_safe import datetime
+
 __author__ = 'Harvey'
 
 from django.db import models
@@ -11,3 +14,7 @@ class UserProfile(models.Model):
     skill_type = models.CharField(max_length=20)
     skill_detail = models.CharField(max_length=1000)
     contact_info = models.CharField(max_length=50)
+    last_modify = models.DateTimeField(default=timezone.now)
+
+    def was_modify_recently(self):
+        return self.last_modify >= timezone.now() - datetime.timedelta(days=3)

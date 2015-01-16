@@ -6,21 +6,21 @@
                 <span class="glyphicon glyphicon-hand-left">返回列表</span>
             </a>
         </div>
-        <h2> {{ biz.title }}</h2>
+        <h2> {{ profile.username }}</h2>
         <div class="group">
-            <span style="color:grey; font-weight:bold;"> <i class="glyphicon glyphicon-calendar"> </i> 刊登日期 {{ biz.pub_date }} </span>
+            <span style="color:grey; font-weight:bold;"> <i class="glyphicon glyphicon-calendar"> </i> 最後修改日期 {{ profile.last_modify }} </span>
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <span style="color:grey; font-weight:bold;"> <i class="glyphicon glyphicon-map-marker"></i> 地點 {{ biz.location }} </span>
+            <span style="color:grey; font-weight:bold;"> <i class="glyphicon glyphicon-map-marker"></i> 地點 {{ profile.location }} </span>
             &nbsp;&nbsp;&nbsp;&nbsp;
         </div>
         <hr>
         <div>
-            {{ biz.content | safe}}
+            {{ profile.skill_detail | safe}}
         </div>
         <br>
         <div class="well">
             <h4> 聯絡資訊 </h4>
-            {{ contact_info }}
+            {{ profile.contact_info }}
         </div>
     </div>
 {% endblock %}
