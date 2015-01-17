@@ -1,4 +1,4 @@
-application: harvey-testapp1
+application: startup-partner
 version: 1
 runtime: python27
 api_version: 1

@@ -42,7 +42,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 ALLOWED_HOSTS = [
-    'harvey-testapp1.appspot.com',  # Allow domain and subdomains
+    'startup-partner.appspot.com',  # Allow domain and subdomains
 ]
 
 # This test runner captures stdout and associates tracebacks with their
