@@ -8,6 +8,9 @@ def partner(request):
     context = {'profile_list': profile_list}
     return render(request, 'partner/partner.html', context)
 
+def partner_search(request):
+    return partner(request)
+
 def view_category(request):
     type = request.GET['type']
     profile_list = UserProfile.objects.all().filter(skill_type=type).order_by('-last_modify')

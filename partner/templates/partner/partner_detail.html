@@ -7,20 +7,32 @@
             </a>
         </div>
         <h2> {{ profile.username }}</h2>
+
         <div class="group">
-            <span style="color:grey; font-weight:bold;"> <i class="glyphicon glyphicon-calendar"> </i> 最後修改日期 {{ profile.last_modify }} </span>
+            <span style="color:grey; font-weight:bold;"> <i
+                    class="glyphicon glyphicon-calendar"> </i> 最後修改日期 {{ profile.last_modify }} </span>
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <span style="color:grey; font-weight:bold;"> <i class="glyphicon glyphicon-map-marker"></i> 地點 {{ profile.location }} </span>
+            <span style="color:grey; font-weight:bold;"> <i
+                    class="glyphicon glyphicon-map-marker"></i> 地點 {{ profile.location }} </span>
             &nbsp;&nbsp;&nbsp;&nbsp;
         </div>
         <hr>
-        <div>
-            {{ profile.skill_detail | safe}}
+        <div class="panel panel-info">
+            <div class="panel-heading">{{ profile.skill_type }}</div>
+            <div class="panel-body">
+                {{ profile.skill_detail | safe }}
+            </div>
         </div>
         <br>
-        <div class="well">
-            <h4> 聯絡資訊 </h4>
-            {{ profile.contact_info }}
+        <div class="panel panel-warning">
+            <div class="panel-heading">聯絡資訊</div>
+            <div class="panel-body">
+                {% if user.is_authenticated %}
+                    {{ profile.contact_info }}
+                {% else %}
+                    登入後查看
+                {% endif %}
+            </div>
         </div>
     </div>
 {% endblock %}

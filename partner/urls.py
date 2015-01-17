@@ -8,4 +8,5 @@ urlpatterns = patterns('',
     url(r'^edit_profile/$', views.edit_profile),
     url(r'^user_detail/$', views.user_detail),
     url(r'^view_category/$', views.view_category),
+    url(r'^search/$', views.partner_search),
 )

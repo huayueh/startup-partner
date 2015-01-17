@@ -30,10 +30,10 @@
         <form accept-charset="UTF-8" action="/partner/edit_profile/" class="simple_form form-horizontal" method="post"
               novalidate="novalidate">
             {% csrf_token %}
-            <h4 class="instruction"> &nbsp; &nbsp;&nbsp;是否公開我的檔案 </h4>
+            <h4 class="instruction"> &nbsp; &nbsp;&nbsp;將我公開在夥伴列表 </h4>
 
             <div class="form-group radio_buttons">
-                <label class="radio_buttons optional col-sm-2 control-label"></label>{#dummy lable#}
+                <label class="radio_buttons optional col-sm-2 control-label">是否公開我的檔案</label>
                 <div class="col-sm-10">
                     <span class="radio">
                         <label for="public" name="public">
@@ -86,6 +86,7 @@
                         <option value="醫療專業">醫療專業</option>
                         <option value="資訊專業">資訊專業</option>
                         <option value="電子/半導體">電子/半導體</option>
+                        <option value="資金夥伴">資金夥伴</option>
                         <option value="其他">其他</option>
                     </select>
                 </div>
@@ -114,7 +115,7 @@
 
                     <p class="help-block">Email / 手機 / Skype / Line ...etc.</p>
 
-                    <p class="help-block">只有你授權的用戶才看得到你的聯絡資訊</p>
+{#                    <p class="help-block">只有你授權的用戶才看得到你的聯絡資訊</p>#}
                 </div>
             </div>
             <hr>

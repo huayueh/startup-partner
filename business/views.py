@@ -9,10 +9,13 @@ def business(request):
     context = {"biz_list" : biz_list}
     return render(request, 'business/business.html', context)
 
+def business_search(request):
+    return business(request)
+
 def view_category(request):
     type = request.GET['type']
     biz_list = Business.objects.all().filter(industry=type).order_by('-pub_date')
-    context = {"biz_list" : biz_list}
+    context = {"biz_list": biz_list}
     return render(request, 'business/business.html', context)
 
 def add_business(request):
