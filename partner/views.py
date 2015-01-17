@@ -4,7 +4,13 @@ from partner.models import UserProfile
 
 
 def partner(request):
-    profile_list = UserProfile.objects.all()
+    profile_list = UserProfile.objects.all().order_by('-last_modify')
+    context = {'profile_list': profile_list}
+    return render(request, 'partner/partner.html', context)
+
+def view_category(request):
+    type = request.GET['type']
+    profile_list = UserProfile.objects.all().filter(skill_type=type).order_by('-last_modify')
     context = {'profile_list': profile_list}
     return render(request, 'partner/partner.html', context)
 
@@ -14,7 +20,8 @@ def view_profile(request):
     return render(request, 'partner/partner_profile.html', context)
 
 def user_detail(request):
-    p = UserProfile.objects.get(username=request.user.username)
+    name = request.GET['name']
+    p = UserProfile.objects.get(username=name)
     context = {'profile': p}
     return render(request, 'partner/partner_detail.html', context)
 
@@ -27,7 +34,7 @@ def edit_profile(request):
     contact_info = request.POST['contact_info']
 
     p, created = UserProfile.objects.get_or_create(username=request.user.username)
-    p.public = bool(public)
+    p.public = bool(public == 'true')
     p.website = str(website).replace('http://', '')
     p.location = location
     p.skill_type = skill_type
@@ -36,4 +43,4 @@ def edit_profile(request):
     p.last_modify = timezone.now()
     p.save()
 
-    return view_profile(request)
+    return partner(request)

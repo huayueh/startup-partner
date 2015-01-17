@@ -38,6 +38,12 @@ indexes:
   - name: __key__
     direction: desc
 
+- kind: business_business
+  properties:
+  - name: industry
+  - name: pub_date
+    direction: desc
+
 - kind: django_content_type
   properties:
   - name: app_label
@@ -47,4 +53,10 @@ indexes:
 - kind: partner_userprofile
   properties:
   - name: __key__
+    direction: desc
+
+- kind: partner_userprofile
+  properties:
+  - name: skill_type
+  - name: last_modify
     direction: desc

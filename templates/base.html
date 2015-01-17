@@ -8,33 +8,7 @@
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">創業夥伴網</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            {% if user.is_authenticated %}
-                <ul class="nav navbar-nav navbar-right" style="font-size: 20px">
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
-                        </a>
-                        <ul class="dropdown-menu dropdown-user">
-                            <li><a href="/partner/view_profile/"><i class="fa fa-user fa-fw"></i>更改資料</a></li>
-                            <li class="divider"></li>
-                            <li><a href="/logout/"><i class="fa fa-sign-out fa-fw"></i>登出</a></li>
-                        </ul>
-                        <!-- /.dropdown-user -->
-                    </li>
-                </ul>
-            {% endif %}
-        </div>
+        {% include "navbar.html" %}
     </div>
 </nav>
 

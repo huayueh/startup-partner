@@ -1,15 +1,15 @@
 {% extends "base.html" %}
 {% block side_menu %}
     <ul class="nav nav-sidebar" id="menu">
-        <li class="active"><a href="#">全部 <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">管理財經</a></li>
-        <li><a href="#">行銷業務</a></li>
-        <li><a href="#">製造工程</a></li>
-        <li><a href="#">餐飲專業</a></li>
-        <li><a href="#">醫療專業</a></li>
-        <li><a href="#">資訊專業</a></li>
-        <li><a href="#">電子/半導體</a></li>
-        <li><a href="#">其他</a></li>
+        <li class="active"><a href="/partner/">全部 <span class="sr-only">(current)</span></a></li>
+        <li><a href="/partner/view_category/?type=管理財經">管理財經</a></li>
+        <li><a href="/partner/view_category/?type=行銷業務">行銷業務</a></li>
+        <li><a href="/partner/view_category/?type=製造工程">製造工程</a></li>
+        <li><a href="/partner/view_category/?type=餐飲專業">餐飲專業</a></li>
+        <li><a href="/partner/view_category/?type=醫療專業">醫療專業</a></li>
+        <li><a href="/partner/view_category/?type=資訊專業">資訊專業</a></li>
+        <li><a href="/partner/view_category/?type=電子/半導體">電子/半導體</a></li>
+        <li><a href="/partner/view_category/?type=其他">其他</a></li>
     </ul>
 {% endblock %}
 {% block content %}
@@ -28,9 +28,6 @@
                 </div>
             </form>
         </div>
-{#        <div class="col-sm-3 col-lg-2">#}
-{#            <a class="btn btn-primary btn-block" data-remote="true" href="/business/add_business/">發表一個偉大的計畫</a>#}
-{#        </div>#}
     </div>
 
     <div class="table-responsive">
@@ -40,20 +37,24 @@
                 <th>用戶</th>
                 <th>專長</th>
                 <th>地點</th>
+                <th>資料更新時間</th>
             </tr>
             </thead>
             <tbody>
             {% for profile in profile_list %}
+                {% if profile.public %}
                 <tr>
-                    <td width="30%">
-{#                        {% if biz.was_published_recently %}#}
-{#                            <span class="label label-success">NEW</span>#}
-{#                        {% endif %}#}
-                        <a href="/partner/user_detail?id={{ profile.pk }}">{{ profile.username }}</a>
+                    <td width="50%">
+                        {% if profile.was_modify_recently %}
+                            <span class="label label-success">NEW</span>
+                        {% endif %}
+                        <a href="/partner/user_detail?name={{ profile.username }}">{{ profile.username }}</a>
                     </td>
-                    <td width="30%">{{ profile.skill_type }}</td>
-                    <td width="30%">{{ profile.location }}</td>
+                    <td width="10%">{{ profile.skill_type }}</td>
+                    <td width="10%">{{ profile.location }}</td>
+                    <td width="20%">{{ profile.last_modify }}</td>
                 </tr>
+                {% endif %}
             {% endfor %}
             </tbody>
         </table>

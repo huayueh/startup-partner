@@ -138,10 +138,13 @@
             var skill_detail = '{{ profile.skill_detail | safe}}';
             var contact_info = '{{ profile.contact_info}}';
             $(document).ready(function () {
-                if(isPublic)
+                if(isPublic){
                     document.getElementById('public').checked = true;
-                else
+                    document.getElementById('non-public').checked = false;
+                } else{
                     document.getElementById('non-public').checked = true;
+                    document.getElementById('public').checked = false;
+                }
                 document.getElementById('website').value = website;
                 document.getElementById('location').value = user_location;
                 document.getElementById('contact_info').value = contact_info;

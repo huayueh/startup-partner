@@ -1,13 +1,12 @@
-from django.utils import timezone
-from django.utils.datetime_safe import datetime
-
 __author__ = 'Harvey'
 
+import datetime
+from django.utils import timezone
 from django.db import models
 
 
 class UserProfile(models.Model):
-    username = models.CharField(max_length=30)
+    username = models.CharField(primary_key=True, max_length=30)
     public = models.BooleanField(default=False)
     website = models.CharField(max_length=50)
     location = models.CharField(max_length=20)

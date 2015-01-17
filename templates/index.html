@@ -5,45 +5,7 @@
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">創業夥伴網</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            {% if user.is_authenticated %}
-                <ul class="nav navbar-nav navbar-right" style="font-size: 20px">
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
-                        </a>
-                        <ul class="dropdown-menu dropdown-user">
-                            <li><a href="/partner/view_profile/"><i class="fa fa-user fa-fw"></i>更改資料</a></li>
-                            <li class="divider"></li>
-                            <li><a href="/logout/"><i class="fa fa-sign-out fa-fw"></i>登出</a></li>
-                        </ul>
-                        <!-- /.dropdown-user -->
-                    </li>
-                </ul>
-            {% else %}
-            <form class="navbar-form navbar-right" method="post" action="/login/">
-                {% csrf_token %}
-                <div class="form-group">
-                    <input type="text" name="username" placeholder="帳號" class="form-control">
-                </div>
-                <div class="form-group">
-                    <input type="password" name="password" placeholder="密碼" class="form-control">
-                </div>
-                <button type="submit" class="btn btn-success">登入</button>
-            </form>
-            {% endif %}
-        </div>
-        <!--/.navbar-collapse -->
+        {% include "navbar.html" %}
     </div>
 </nav>
 

@@ -10,13 +10,6 @@ def index(request):
 def signup(request):
     return render(request, 'signup.html')
 
-def tinymce(request):
-    return render(request, 'tinymce.html')
-
-def test_tinymce(request):
-    context = {'plain': request.POST.get('content', '')}
-    return render(request, 'tinymce.html', context)
-
 def user_login(request):
     username = request.POST['username']
     password = request.POST['password']
@@ -50,10 +43,6 @@ def add_user(request):
     if not User.objects.filter(username = name).exists():
         user = User.objects.create_user(name, email, pwd)
         user.save()
-        return viewperson(request)
-    return HttpResponse('fail')
 
-def viewperson(request):
-    user_list = User.objects.all()
-    context = {'user_list': user_list}
-    return render(request, 'person.html', context)
+        return index(request)
+    return HttpResponse('fail')
