@@ -1,8 +1,19 @@
 <html>
 <head>
-{% include "head.html" %}
+    {% include "head.html" %}
 </head>
 <body>
+{# facebook #}
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+{# end facebook #}
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         {% include "navbar.html" %}
@@ -19,7 +30,7 @@
         <p>你也想創業嗎? 你準備好了嗎? 你有團隊了嗎? 你的團隊還缺專業人才嗎? 還是你的團隊缺乏資金呢?</p>
 
         {% if not user.is_authenticated %}
-        <p><a class="btn btn-lg btn-success" href="/signup" role="button">註冊</a></p>
+            <p><a class="btn btn-lg btn-success" href="/signup" role="button">註冊</a></p>
         {% endif %}
     </div>
 
@@ -27,6 +38,7 @@
         <div class="col-md-6">
             <h2>找夥伴</h2>
             <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTu8Ooewvg_k12VTgfSoVWMUvpz_bIbCF3hRpWt4dUvcf276OhObQ">
+
             <p>我有很多偉大的計畫，希望能找到志同道合的夥伴陪我一起航向成功</p>
 
             <p><a class="btn btn-default" href="/partner" role="button">更多 »</a></p>
@@ -45,7 +57,7 @@
 
 <footer class="footer">
     <div class="container">
-            <p class="pull-right"> © 2015 startup-partner inc. all right reserved. beta</p>
+        <p class="pull-right"> © 2015 startup-partner inc. all right reserved. beta</p>
     </div>
 </footer>
 </body>
